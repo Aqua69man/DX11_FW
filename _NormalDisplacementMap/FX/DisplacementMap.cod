@@ -150,7 +150,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -249,7 +249,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -423,7 +423,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -582,7 +582,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 9
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -634,7 +634,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -680,7 +680,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -809,7 +809,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -908,7 +908,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -1082,7 +1082,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -1241,7 +1241,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 12
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -1293,7 +1293,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -1339,7 +1339,7 @@ fxgroup
                 movc r6.xyz, r1.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -1387,7 +1387,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -1516,7 +1516,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -1615,7 +1615,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -1789,7 +1789,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -1948,7 +1948,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -2000,7 +2000,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -2046,7 +2046,7 @@ fxgroup
                 movc r6.xyz, r1.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -2094,7 +2094,7 @@ fxgroup
                 movc r9.xyz, r1.wwww, r9.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r8.xyz, r8.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r9.xyz, r9.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r10.xyz, r10.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -2142,7 +2142,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -2271,7 +2271,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -2370,7 +2370,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -2544,7 +2544,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -2673,7 +2673,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 1
                 
-                #line 212 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 212 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 sample_indexable(texture2d)(float,float,float,float) r0.xyzw, v4.xyxx, t0.xyzw, s0  // texColor<0:Inf,1:Inf,2:Inf,3:Inf>
                 
                 #line 228
@@ -2796,7 +2796,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -2895,7 +2895,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -3069,7 +3069,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -3230,7 +3230,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -3285,7 +3285,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -3331,7 +3331,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -3460,7 +3460,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -3559,7 +3559,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -3733,7 +3733,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -3894,7 +3894,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -3949,7 +3949,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -3995,7 +3995,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -4043,7 +4043,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -4172,7 +4172,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -4271,7 +4271,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -4445,7 +4445,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -4606,7 +4606,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -4661,7 +4661,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -4707,7 +4707,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -4755,7 +4755,7 @@ fxgroup
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r1.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -4803,7 +4803,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -4932,7 +4932,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -5031,7 +5031,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -5205,7 +5205,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -5334,7 +5334,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 212 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 212 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 sample_indexable(texture2d)(float,float,float,float) r0.xyzw, v4.xyxx, t0.xyzw, s0  // texColor<0:Inf,1:Inf,2:Inf,3:Inf>
                 
                 #line 219
@@ -5463,7 +5463,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -5562,7 +5562,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -5736,7 +5736,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -5897,7 +5897,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -5958,7 +5958,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -6004,7 +6004,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -6133,7 +6133,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -6232,7 +6232,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -6406,7 +6406,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -6567,7 +6567,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -6628,7 +6628,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -6674,7 +6674,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -6722,7 +6722,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -6851,7 +6851,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -6950,7 +6950,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -7124,7 +7124,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -7285,7 +7285,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -7346,7 +7346,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -7392,7 +7392,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -7440,7 +7440,7 @@ fxgroup
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r1.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -7488,7 +7488,7 @@ fxgroup
                 movc r0.xyz, r1.wwww, r0.yzwy, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r2.xyz, r1.wwww, r2.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r0.xyz, r0.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r2.xyz, r2.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -7617,7 +7617,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -7716,7 +7716,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -7890,7 +7890,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -8049,7 +8049,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 9
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -8101,7 +8101,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -8147,7 +8147,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -8289,7 +8289,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -8388,7 +8388,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -8562,7 +8562,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -8721,7 +8721,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 12
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -8773,7 +8773,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -8819,7 +8819,7 @@ fxgroup
                 movc r6.xyz, r2.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -8867,7 +8867,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -9009,7 +9009,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -9108,7 +9108,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -9282,7 +9282,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -9441,7 +9441,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -9493,7 +9493,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -9539,7 +9539,7 @@ fxgroup
                 movc r6.xyz, r2.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -9587,7 +9587,7 @@ fxgroup
                 movc r9.xyz, r2.wwww, r9.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r8.xyz, r8.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r9.xyz, r9.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r10.xyz, r10.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -9635,7 +9635,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -9777,7 +9777,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -9876,7 +9876,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -10050,7 +10050,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -10207,7 +10207,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 199 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 199 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, -v1.xyzx
                 add r0.xyz, r0.xyzx, cb0[12].xyzx  // toEye<0:Inf,1:Inf,2:Inf>
                 
@@ -10351,7 +10351,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -10450,7 +10450,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -10624,7 +10624,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -10785,7 +10785,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -10840,7 +10840,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -10886,7 +10886,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -11028,7 +11028,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -11127,7 +11127,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -11301,7 +11301,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -11462,7 +11462,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -11517,7 +11517,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -11563,7 +11563,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -11611,7 +11611,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -11753,7 +11753,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -11852,7 +11852,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -12026,7 +12026,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -12187,7 +12187,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -12242,7 +12242,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -12288,7 +12288,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -12336,7 +12336,7 @@ fxgroup
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r2.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -12384,7 +12384,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -12526,7 +12526,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -12625,7 +12625,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -12799,7 +12799,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -12956,7 +12956,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 199 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 199 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, -v1.xyzx
                 add r0.xyz, r0.xyzx, cb0[12].xyzx  // toEye<0:Inf,1:Inf,2:Inf>
                 
@@ -13106,7 +13106,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -13205,7 +13205,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -13379,7 +13379,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -13540,7 +13540,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -13601,7 +13601,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -13647,7 +13647,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -13789,7 +13789,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -13888,7 +13888,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -14062,7 +14062,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -14223,7 +14223,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -14284,7 +14284,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -14330,7 +14330,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -14378,7 +14378,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -14520,7 +14520,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -14619,7 +14619,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -14793,7 +14793,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -14954,7 +14954,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -15015,7 +15015,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -15061,7 +15061,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -15109,7 +15109,7 @@ fxgroup
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r2.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -15157,7 +15157,7 @@ fxgroup
                 movc r2.xyz, r2.wwww, r2.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r0.xyz, r2.wwww, r0.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r2.xyz, r2.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -15299,7 +15299,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -15398,7 +15398,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -15572,7 +15572,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -15733,7 +15733,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 9
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -15785,7 +15785,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -15831,7 +15831,7 @@ fxgroup
                 movc r3.xyz, r1.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -15972,7 +15972,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -16071,7 +16071,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -16245,7 +16245,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -16406,7 +16406,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 12
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -16458,7 +16458,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -16504,7 +16504,7 @@ fxgroup
                 movc r6.xyz, r1.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -16552,7 +16552,7 @@ fxgroup
                 movc r3.xyz, r1.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -16693,7 +16693,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -16792,7 +16792,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -16966,7 +16966,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -17127,7 +17127,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -17179,7 +17179,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -17225,7 +17225,7 @@ fxgroup
                 movc r6.xyz, r1.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -17273,7 +17273,7 @@ fxgroup
                 movc r9.xyz, r1.wwww, r9.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r8.xyz, r8.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r9.xyz, r9.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r10.xyz, r10.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -17321,7 +17321,7 @@ fxgroup
                 movc r3.xyz, r1.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -17462,7 +17462,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -17561,7 +17561,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -17735,7 +17735,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -17864,7 +17864,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 1
                 
-                #line 212 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 212 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 sample_indexable(texture2d)(float,float,float,float) r0.xyzw, v4.xyxx, t0.xyzw, s0  // texColor<0:Inf,1:Inf,2:Inf,3:Inf>
                 
                 #line 228
@@ -17987,7 +17987,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -18086,7 +18086,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -18260,7 +18260,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -18423,7 +18423,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -18478,7 +18478,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -18524,7 +18524,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -18665,7 +18665,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -18764,7 +18764,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -18938,7 +18938,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -19101,7 +19101,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -19156,7 +19156,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -19202,7 +19202,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -19250,7 +19250,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -19391,7 +19391,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -19490,7 +19490,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -19664,7 +19664,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -19827,7 +19827,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -19882,7 +19882,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -19928,7 +19928,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -19976,7 +19976,7 @@ fxgroup
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r1.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -20024,7 +20024,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -20165,7 +20165,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -20264,7 +20264,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -20438,7 +20438,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -20567,7 +20567,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 212 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 212 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 sample_indexable(texture2d)(float,float,float,float) r0.xyzw, v4.xyxx, t0.xyzw, s0  // texColor<0:Inf,1:Inf,2:Inf,3:Inf>
                 
                 #line 219
@@ -20696,7 +20696,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -20795,7 +20795,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -20969,7 +20969,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -21132,7 +21132,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -21193,7 +21193,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -21239,7 +21239,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -21380,7 +21380,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -21479,7 +21479,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -21653,7 +21653,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -21816,7 +21816,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -21877,7 +21877,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -21923,7 +21923,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -21971,7 +21971,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -22112,7 +22112,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -22211,7 +22211,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -22385,7 +22385,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -22548,7 +22548,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -22609,7 +22609,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -22655,7 +22655,7 @@ fxgroup
                 movc r7.xyz, r1.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r1.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -22703,7 +22703,7 @@ fxgroup
                 movc r10.xyz, r1.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r1.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -22751,7 +22751,7 @@ fxgroup
                 movc r4.xyz, r1.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r1.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -22892,7 +22892,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -22991,7 +22991,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -23165,7 +23165,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -23326,7 +23326,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 9
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -23378,7 +23378,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -23424,7 +23424,7 @@ fxgroup
                 movc r3.xyz, r2.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -23578,7 +23578,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -23677,7 +23677,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -23851,7 +23851,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -24012,7 +24012,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 12
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -24064,7 +24064,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -24110,7 +24110,7 @@ fxgroup
                 movc r6.xyz, r2.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -24158,7 +24158,7 @@ fxgroup
                 movc r3.xyz, r2.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -24312,7 +24312,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -24411,7 +24411,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -24585,7 +24585,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -24746,7 +24746,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -24798,7 +24798,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -24844,7 +24844,7 @@ fxgroup
                 movc r6.xyz, r2.wwww, r6.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r5.xyz, r5.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r6.xyz, r6.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r7.xyz, r7.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -24892,7 +24892,7 @@ fxgroup
                 movc r9.xyz, r2.wwww, r9.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r8.xyz, r8.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r9.xyz, r9.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r10.xyz, r10.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -24940,7 +24940,7 @@ fxgroup
                 movc r3.xyz, r2.wwww, r3.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r3.xyz, r3.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r4.xyz, r4.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -25094,7 +25094,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -25193,7 +25193,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -25367,7 +25367,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -25524,7 +25524,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 199 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 199 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, -v1.xyzx
                 add r0.xyz, r0.xyzx, cb0[12].xyzx  // toEye<0:Inf,1:Inf,2:Inf>
                 
@@ -25668,7 +25668,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -25767,7 +25767,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -25941,7 +25941,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -26104,7 +26104,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -26159,7 +26159,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -26205,7 +26205,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -26359,7 +26359,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -26458,7 +26458,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -26632,7 +26632,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -26795,7 +26795,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -26850,7 +26850,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -26896,7 +26896,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -26944,7 +26944,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -27098,7 +27098,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -27197,7 +27197,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -27371,7 +27371,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -27534,7 +27534,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -27589,7 +27589,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -27635,7 +27635,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -27683,7 +27683,7 @@ fxgroup
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r2.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -27731,7 +27731,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -27885,7 +27885,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -27984,7 +27984,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -28158,7 +28158,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -28315,7 +28315,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 2
                 
-                #line 199 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 199 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, -v1.xyzx
                 add r0.xyz, r0.xyzx, cb0[12].xyzx  // toEye<0:Inf,1:Inf,2:Inf>
                 
@@ -28465,7 +28465,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -28564,7 +28564,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -28738,7 +28738,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -28901,7 +28901,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 10
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -28962,7 +28962,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -29008,7 +29008,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -29162,7 +29162,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -29261,7 +29261,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -29435,7 +29435,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -29598,7 +29598,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 13
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -29659,7 +29659,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -29705,7 +29705,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -29753,7 +29753,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -29907,7 +29907,7 @@ fxgroup
                 dcl_output o3.z
                 dcl_temps 5
                 
-                #line 67 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 67 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, v0.xyzx
                 mov r0.w, l(1.000000)
                 dp4 r1.x, r0.xyzw, cb1[0].xyzw  // vout<0:NaN:Inf>
@@ -30006,7 +30006,7 @@ fxgroup
                 dcl_tessellator_output_primitive output_triangle_cw
                 dcl_globalFlags refactoringAllowed
                 
-                #line 132 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 132 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 hs_control_point_phase 
                 dcl_input vOutputControlPointID
                 dcl_input v[3][0].xyz
@@ -30180,7 +30180,7 @@ fxgroup
                 dcl_output o4.xy
                 dcl_temps 6
                 
-                #line 159 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 159 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mul r0.xyz, vDomain.xxxx, vicp[0][0].xyzx
                 mul r1.xyz, vDomain.yyyy, vicp[1][0].xyzx
                 add r0.xyz, r0.xyzx, r1.xyzx
@@ -30343,7 +30343,7 @@ fxgroup
                 dcl_output o0.xyzw
                 dcl_temps 14
                 
-                #line 196 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 196 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 dp3 r0.x, v2.xyzx, v2.xyzx
                 rsq r0.x, r0.x
                 mul r0.xyz, r0.xxxx, v2.xyzx  // pin<7:NaN:Inf,8:NaN:Inf,9:NaN:Inf>
@@ -30404,7 +30404,7 @@ fxgroup
                 add r0.xyz, r0.xyzx, r1.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r0.xyz, r0.xyzx  // NormalSampleToWorldSpace<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 228 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 228 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r0.xyz, r0.xyzx  // bumpedNormalW<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
                 #line 247
@@ -30450,7 +30450,7 @@ fxgroup
                 movc r7.xyz, r2.wwww, r7.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r8.xyz, r2.wwww, r8.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r6.xyz, r6.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r7.xyz, r7.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r8.xyz, r8.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -30498,7 +30498,7 @@ fxgroup
                 movc r10.xyz, r2.wwww, r10.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r11.xyz, r2.wwww, r11.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r9.xyz, r9.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r10.xyz, r10.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r11.xyz, r11.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
@@ -30546,7 +30546,7 @@ fxgroup
                 movc r4.xyz, r2.wwww, r4.xyzx, l(0,0,0,0)  // diffuse<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 movc r5.xyz, r2.wwww, r5.xyzx, l(0,0,0,0)  // spec<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 
-                #line 247 "C:\Users\frzaev\Desktop\NormDisp\v1_NormDisp_WinSDK_Reflect\_NormalDisplacementMap\FX\DisplacementMap.fx"
+                #line 247 "C:\Users\Farid\Desktop\DX11_FW\_NormalDisplacementMap\FX\DisplacementMap.fx"
                 mov r1.xyz, r1.xyzx  // A<0:Inf,1:Inf,2:Inf>
                 mov r4.xyz, r4.xyzx  // D<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
                 mov r5.xyz, r5.xyzx  // S<0:NaN:Inf,1:NaN:Inf,2:NaN:Inf>
