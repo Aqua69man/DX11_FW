@@ -209,7 +209,7 @@ void DynamicReflectionsApp::DrawScene(Camera& camera, bool drawCenterSkull)
 	md3dImmediateContext->IASetVertexBuffers(0, 1, &SkullMesh.mSkullVB, &stride, &offset);
 	md3dImmediateContext->IASetIndexBuffer(SkullMesh.mSkullIB, DXGI_FORMAT_R32_UINT, 0);
 
-	// ------------------------ RotatingSkull ---------------------------
+	// ------------------------ Farid_RotatingSkull ---------------------------
 	//					 We can use Instancing for second skull
 	// ------------------------------------------------------------------------
 

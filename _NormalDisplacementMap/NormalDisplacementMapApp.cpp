@@ -30,7 +30,7 @@ NormalDisplacementMapApp::NormalDisplacementMapApp(HINSTANCE hInstance) :
   mShapesVB(0), mShapesIB(0), /*mSkullVB(0), mSkullIB(0), */
   mStoneTexSRV(0), mBrickTexSRV(0),
   mStoneNormalTexSRV(0), mBrickNormalTexSRV(0), 
-  // -------- DynamicReflection ---------
+  // -------- Farid_DynamicReflection ---------
   // mDynamicCubeMapDSV(0), mDynamicCubeMapSRV(0),
   // ------------------------------------------
   /*mSkullIndexCount(0),*/  mRenderOptions(RenderOptionsNormalMap)
@@ -42,7 +42,7 @@ NormalDisplacementMapApp::NormalDisplacementMapApp(HINSTANCE hInstance) :
 
 	mCam.SetPosition(0.0f, 2.0f, -15.0f);
 
-	// -------- DynamicReflection --------
+	// -------- Farid_DynamicReflection --------
 	//BuildCubeFaceCamera(0.0f, 2.0f, 0.0f);
 	//for (int i = 0; i < 6; ++i)
 	//{
@@ -124,7 +124,7 @@ NormalDisplacementMapApp::~NormalDisplacementMapApp()
 	ReleaseCOM(mStoneNormalTexSRV);
 	ReleaseCOM(mBrickNormalTexSRV);
 
-	// -------- DynamicReflection --------
+	// -------- Farid_DynamicReflection --------
 	//ReleaseCOM(mDynamicCubeMapDSV);
 	//ReleaseCOM(mDynamicCubeMapSRV);
 	//for (int i = 0; i < 6; ++i)
@@ -208,7 +208,7 @@ bool NormalDisplacementMapApp::Init()
 	// ~FarUPD_WinSDK
 
 
-	// -------- DynamicReflection --------
+	// -------- Farid_DynamicReflection --------
 	//BuildDynamicCubeMapViews();
 	// -----------------------------------------
 
@@ -290,7 +290,7 @@ void NormalDisplacementMapApp::DrawScene(Camera& camera) {
 	ID3DX11EffectTechnique* activeTech = Effects::DisplacementMapFX->Light3TexTech;
 	ID3DX11EffectTechnique* activeSphereTech = Effects::BasicFX->Light3ReflectTech;
 	//ID3DX11EffectTechnique* activeSkullTech = Effects::BasicFX->Light3ReflectTech;
-	// -------------------------- RotatingSkull ------------------------------------
+	// -------------------------- Farid_RotatingSkull ------------------------------------
 	//ID3DX11EffectTechnique* activeRotatingSkullTech = Effects::BasicFX->Light1Tech;
 	// -------------------------------------------------------------------------
 
@@ -496,7 +496,7 @@ void NormalDisplacementMapApp::DrawScene(Camera& camera) {
 	//md3dImmediateContext->IASetVertexBuffers(0, 1, &mSkullVB, &stride, &offset);
 	//md3dImmediateContext->IASetIndexBuffer(mSkullIB, DXGI_FORMAT_R32_UINT, 0);
 
-	//// ------------------------ RotatingSkull ---------------------------
+	//// ------------------------ Farid_RotatingSkull ---------------------------
 	////					 We can use Instancing for second skull
 	//// ------------------------------------------------------------------------
 
@@ -593,7 +593,7 @@ void NormalDisplacementMapApp::DrawScene()
 }
 
 
-// ----------------------- DynamicReflection -------------------------
+// ----------------------- Farid_DynamicReflection -------------------------
 //void NormalDisplacementMapApp::BuildCubeFaceCamera(float x, float y, float z)
 //{
 //	// Generate the cube map about the given position.

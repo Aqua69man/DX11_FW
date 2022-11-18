@@ -41,7 +41,7 @@ public:
 private:
 	void BuildShapeGeometryBuffers();
 
-	// -------- DynamicReflection --------
+	// -------- Farid_DynamicReflection --------
 	//void BuildCubeFaceCamera(float x, float y, float z);
 	//void BuildDynamicCubeMapViews();
 	// -----------------------------------------
@@ -101,7 +101,7 @@ protected:
 
 	Camera mCam;
 
-	// -------- DynamicReflection --------
+	// -------- Farid_DynamicReflection --------
 	//Camera mDynamicCubeMapCamera[6];
 
 	//D3D11_VIEWPORT mDynamicCubeMapViewport;
